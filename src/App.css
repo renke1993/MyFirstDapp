@@ -1,0 +1,64 @@
+.body {
+  position: relative;
+}
+.bg-img {
+  background-image: url(./bg.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.h1 {
+  font-size: 40px;
+  color: chocolate;
+}
+.h3 {
+  color:#242222;
+}
+
+.p1 {
+  color:#242222;
+  margin-left:-78px;
+}
+
+.p2 {
+  color:#242222;
+  margin-left:-38px;
+}
+
+.card {
+  background-color: #e0eff3;
+  width: 50%;
+  height: 60%;
+  margin-top: 10%;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px;
+}
+
+.button {
+  background-color: chartreuse;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 15px;
+}
